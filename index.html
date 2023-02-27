@@ -1,0 +1,146 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">How can FIFA improve their entertainment value?</h1>
+    <p id="description">
+      Thank you for taking the time to help FIFA improve by completing this
+      survey form.
+    </p>
+
+    <form id="survey-form">
+      <div class="input-element">
+        <label for="name" id="name-label"
+          >Name<input
+            id="name"
+            type="text"
+            placeholder="Enter your name"
+            required
+          />
+        </label>
+      </div>
+      <div>
+        <label for="email" id="email-label"
+          >Email
+          <input
+            id="email"
+            type="email"
+            placeholder="Enter your email"
+            required
+        /></label>
+      </div>
+      <div>
+        <label for="number" id="number-label"
+          >How old are you? (optional)
+          <input
+            id="number"
+            type="number"
+            name="age"
+            min="13"
+            max="120"
+            placeholder="Age"
+        /></label>
+      </div>
+      <div>
+        <label for="dropdown">
+          Who's your favorite team?
+          <select name="dropdown" id="dropdown">
+            <option value="0">Select an option</option>
+            <option value="1">Argentina</option>
+            <option value="2">Brazil</option>
+            <option value="3">Portugal</option>
+            <option value="4">Spain</option>
+            <option value="5">Italy</option>
+            <option value="6">Germany</option>
+            <option value="7">France</option>
+          </select></label
+        >
+      </div>
+      <div>
+        <label for="name">Have you watched the game live before?</label>
+        <div>
+          <label
+            ><input
+              type="radio"
+              name="game"
+              value="yes"
+              class="inline"
+            />YES</label
+          >
+        </div>
+        <div>
+          <label
+            ><input
+              type="radio"
+              name="game"
+              value="no"
+              class="inline"
+            />NO</label
+          >
+        </div>
+      </div>
+      <div>
+        <label for="name"
+          >Which suggestion are good ideas for FIFA to implement?</label
+        >
+        <div>
+          <label
+            ><input
+              type="checkbox"
+              name="ideas"
+              value="playing"
+              class="inline"
+            />Play in game</label
+          >
+        </div>
+        <div>
+          <label
+            ><input
+              type="checkbox"
+              name="ideas"
+              value="ticket"
+              class="inline"
+            />Cheaper tickets</label
+          >
+        </div>
+        <div>
+          <label
+            >VAR to be replayed on the bigger screen<input
+              type="checkbox"
+              name="ideas"
+              value="var"
+              class="inline"
+          /></label>
+        </div>
+        <div>
+          <label
+            ><input
+              type="checkbox"
+              name="ideas"
+              value="food"
+              class="inline"
+            />Affordable food</label
+          >
+        </div>
+      </div>
+      <div>
+        <label for="">Any comments or suggestions?</label>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="I would like to suggest..."
+        ></textarea>
+      </div>
+
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
